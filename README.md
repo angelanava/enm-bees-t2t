@@ -16,8 +16,8 @@ The analytical workflow includes occurrence data processing, generation of speci
 
 The repository contains two R scripts:
 
-- **`R/01_occurrence_background_preparation.R`** — Generation of species-specific occurrence and background datasets.
-- **`R/02_mve_model_calibration.R`** — Calibration, evaluation, and selection of minimum-volume ellipsoid models.
+- **`R/01_enm_t2t_occs.R`** — Generation of species-specific occurrence and background datasets.
+- **`R/enm_t2t_ellip.R`** — Calibration, evaluation, and selection of minimum-volume ellipsoid models.
 
 The `data/` directory contains the bee occurrence dataset provided for these analyses.
 
