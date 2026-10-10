@@ -1,25 +1,25 @@
-## Ecological Niche Modeling of Bees Across the Tropics-to-Tundra Region
+# Ecological Niche Modeling of Bees Across the Tropics-to-Tundra Region
 
 This repository contains R scripts and occurrence data supporting the ecological niche modeling (ENM) analyses associated with the manuscript **“Contrasting evolutionary histories underlie bee diversity hotspots from Neotropical rainforests to Arctic tundra.”**
 
-## Authors of the code
+## Code Authors
 
 - Angela Nava-Bolaños, Luis Osorio-Olvera and Jorge Soberón
-- *In memory of Luis Osorio-Olvera, whose scientific contributions were fundamental to the development of the ecological niche modeling analyses documented in this repository.*
+
+*In memory of Luis Osorio-Olvera, whose scientific contributions were fundamental to the development of the ecological niche modeling analyses documented in this repository.*
 
 ## Methods
 
-Ecological niche models were developed using minimum-volume ellipsoids (MVEs), implemented in R with the `ntbox` package.
-The analytical workflow includes occurrence data processing, generation of species-specific environmental background samples, environmental predictor selection, model calibration, and evaluation.
+Ecological niche models were developed using minimum-volume ellipsoids (MVEs), implemented in R with the `ntbox` package. The analytical workflow includes the preparation of species-specific occurrence and environmental background datasets, environmental predictor selection, model calibration, evaluation, and selection. Selected ellipsoids were projected into geographic space to generate continuous environmental suitability maps and binary potential distribution maps.
 
 ## Code and Data
 
 The repository contains two R scripts:
 
-- **`R/01_enm_t2t_occs.R`** — Generation of species-specific occurrence and background datasets.
-- **`R/02_enm_t2t_ellip.R`** — Calibration, evaluation, and selection of minimum-volume ellipsoid models.
+- **`R/01_enm_t2t_occs.R`** — Preparation of species-specific occurrence and environmental background datasets for ecological niche modeling.
+- **`R/02_enm_t2t_ellip.R`** — Calibration, evaluation, selection, and geographic projection of minimum-volume ellipsoid models.
 
-The `data/` directory contains the bee occurrence dataset provided for these analyses.
+The `data/` directory contains the cleaned bee occurrence dataset (`cleaned_inG_26_06_24_ANB_latlong.csv`) used in these analyses.
 
 ## Related Repositories
 
@@ -30,9 +30,9 @@ The `data/` directory contains the bee occurrence dataset provided for these ana
 
 If you use the code or data provided in this repository, please cite the associated manuscript:
 
-Contrasting evolutionary histories underlie bee diversity hotspots from Neotropical rainforests to Arctic tundra.
+*Contrasting evolutionary histories underlie bee diversity hotspots from Neotropical rainforests to Arctic tundra.*
 
-Full bibliographic details and the article DOI will be added upon publication
+Full bibliographic details and the article DOI will be added upon publication.
 
 ## License
 
