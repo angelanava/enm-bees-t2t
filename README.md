@@ -5,7 +5,7 @@ This repository contains R scripts and occurrence data supporting the ecological
 ## Authors of the code
 
 - Angela Nava-Bolaños, Luis Osorio-Olvera and Jorge Soberón
-*In memory of Luis Osorio-Olvera, whose scientific contributions were fundamental to the development of the ecological niche modeling analyses documented in this repository.*
+- *In memory of Luis Osorio-Olvera, whose scientific contributions were fundamental to the development of the ecological niche modeling analyses documented in this repository.*
 
 ## Methods
 
